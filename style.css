@@ -1,3 +1,117 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
+body {
+    background-color: #917137;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    min-width: 320px;
+}
+li {
+    list-style: none;
+}
+h1 {
+    color: antiquewhite;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #162c22;
+    height: 100px;
+}
+nav.page-header-nav {
+    height: 100%;
+}
+
+.section {
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+    background-color:rgb(180, 173, 185);
+}
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.site-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #db1731;
+    padding: 1em 0;
+    position: relative;
+    height: 100%;
+}
+
+.my_foto {
+    width: 240px;
+    height: 320px;
+}
+.about-me-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.name {
+    display: flex;
+    align-items: center;
+}
+.logo-rsschool {
+    width: 100px;
+    height: 100px;
+}
+.year {
+    align-self: center;
+}
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+#skills h2 {
+    align-self: center;
+}
+#education {
+    display: flex;
+    justify-content: space-evenly;
+}
+#education h2 {
+    align-self: center;
+}
+#contacts {
+    display: flex;
+    justify-content: space-evenly;
+}
+#contacts h2 {
+    align-self: center;
+}
+#languages {
+    display: flex;
+    justify-content: space-evenly;
+}
+#languages h2 {
+    align-self: center;
+}
+
+
